@@ -1,0 +1,7 @@
+{
+  "name": "coree",
+  "source": ".",
+  "description": "Persistent memory and code intelligence for AI agents",
+  "author": "coree-ai",
+  "repository": "https://github.com/coree-ai/openclaw"
+}

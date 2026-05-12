@@ -1,0 +1,31 @@
+{
+  "name": "coree",
+  "version": "0.13.0-1",
+  "description": "Persistent memory and code intelligence for AI agents - stores decisions, discoveries, and gotchas across sessions using local libSQL with vector + BM25 search.",
+  "author": {
+    "name": "Michael Alexander",
+    "url": "https://github.com/coree-ai/coree"
+  },
+  "repository": "https://github.com/coree-ai/openclaw",
+  "license": "Apache-2.0",
+  "keywords": [
+    "memory",
+    "persistence",
+    "mcp",
+    "agent"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Coree",
+    "developerName": "coree-ai",
+    "category": "productivity",
+    "shortDescription": "Persistent memory and code intelligence across sessions.",
+    "longDescription": "coree gives AI agents persistent memory and code intelligence. It stores decisions, gotchas, and architectural discoveries in a local libSQL database with hybrid vector + BM25 search. Use search() as your primary entry point - it searches both memories and source code simultaneously.",
+    "websiteURL": "https://coree.ai",
+    "capabilities": [
+      "memory",
+      "code-search",
+      "context-injection"
+    ]
+  }
+}
