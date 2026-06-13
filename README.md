@@ -32,7 +32,7 @@ and merge in the `mcp.servers` block from [`openclaw.json`](./openclaw.json):
     "servers": {
       "coree": {
         "command": "npx",
-        "args": ["--yes", "@coree-ai/coree@0.13.0", "serve"],
+        "args": ["--yes", "@coree-ai/coree@0.14.1", "serve"],
         "env": {
           "COREE__MEMORY__REMOTE_AUTH_TOKEN": "${COREE__MEMORY__REMOTE_AUTH_TOKEN}",
           "COREE__MEMORY__REMOTE_URL": "${COREE__MEMORY__REMOTE_URL}",
